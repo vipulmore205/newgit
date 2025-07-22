@@ -1,0 +1,6 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/shreecom/public_html/Devops/techno/IT_Sol
+    - /bin/cp -css * $DEPLOYPATH
+    -/bin/cp  -js * $DEPLOYPATH
+    - /bin/cp -html * $DEPLOYPATH
